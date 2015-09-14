@@ -1,14 +1,16 @@
-  <footer class="footer cf" role="contentinfo">
+<footer><?php echo $site->copyright()->kirbytext() ?><p>Theme: <a href="http://kirby.leonsiekmann.de/">Frisk</a></p>
+		</footer>
+	</div>
+	<!-- ende von class=alles -->
 
-    <div class="copyright">
-      <?php echo $site->copyright()->kirbytext() ?>
-    </div>
-
-    <div class="colophon">
-      <a href="http://getkirby.com/made-with-kirby-and-love">Made with Kirby and <b>♥</b></a>
-    </div>
-
-  </footer>
-
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>
+		$(document).ready(function() {
+    $('.toggle').click(function() {
+        $('.seitenkopf').toggleClass('mobilemenu');
+    });
+});
+</script>
 </body>
+
 </html>

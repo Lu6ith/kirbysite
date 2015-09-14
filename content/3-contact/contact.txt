@@ -1,19 +1,18 @@
-Title: Contact
+Title: Contact / About
 
 ----
 
-Text:
+Text: 
 
-## Get in touch
+Hey there. :)
+My Name is Leon, thanks for downloading my theme. If you have any questions or feedback don't hesitate to contact me:
+- Follow me on Twitter: (twitter: @leondonist)
+- Send me an Email at: kirby [at] kiwipalme [dot] de
 
-- (link: http://getkirby.com/support text: Kirby's support page)
-- (link: http://forum.getkirby.com text: Kirby's forum)
-- (link: http://github.com/getkirby text: Kirby on Github)
-- <support@getkirby.com>
+----
 
-## Follow us on Twitter
+Submenu: 
 
-- Follow Kirby on Twitter (twitter: @getkirby)
-- Follow Bastian on Twitter (twitter: @bastianallgeier)
-- Follow Nico on Twitter (twitter: @distantnative)
-- Follow Sascha on Twitter (twitter: @sashtown)
+----
+
+Backbutton: 

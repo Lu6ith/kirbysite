@@ -1,16 +1,12 @@
-<?php snippet('header') ?>
+<?php snippet( 'header') ?>
+<article>
+	<header>
+		<h1><?php echo $page->title()->html() ?></h1>	
+	</header>
+	<?php echo $page->text()->kirbytext() ?>
 
-  <main class="main" role="main">
+</article>
+<?php snippet( 'projects') ?>
 
-    <div class="text">
-      <h1><?php echo $page->title()->html() ?></h1>
-      <?php echo $page->text()->kirbytext() ?>
-    </div>
 
-    <hr>
-
-    <?php snippet('projects') ?>
-
-  </main>
-
-<?php snippet('footer') ?>
+<?php snippet( 'footer') ?>
